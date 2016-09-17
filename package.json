@@ -5,10 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start-server": "node server.js",
-    "watch-js": "watchify app/components/index.js -o public/js/app.js -t [ babelify --presets [ es2015 react ] ] -v",
     "watch-server": "nodemon server.js",
-    "compile-js": "browserify app/index.js -o public/js/app.js -t [ babelify --presets [ es2015 react ] ] -v",
-    "build": "npm run compile-js"
+    "watch-js": "watchify app/components/index.js -o public/js/app.js -t [ babelify --presets [ es2015 react ] ] -v",
+    "compile-js": "browserify app/components/index.js -o public/js/app.js -t [ babelify --presets [ es2015 react ] ] -v"
   },
   "babel": {
     "presets": [
