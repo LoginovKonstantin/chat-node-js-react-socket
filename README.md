@@ -1,5 +1,5 @@
 # Chat created with nodejs, react, socket-io.
-#### Start
+
   1. Require nodejs with npm
   2. Clone repository
   3. Go to folder: "node-js-react-socket-chat"
